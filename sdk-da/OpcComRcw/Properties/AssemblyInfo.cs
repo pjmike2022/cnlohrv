@@ -26,20 +26,12 @@
  * The complete license agreement can be found here:
  * http://opcfoundation.org/License/MIT/1.00/
  * ======================================================================*/
-
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("OpcComRcw")]
-[assembly: AssemblyDescription("OPC COM .NET RCW Library")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("OPC Foundation")]
-[assembly: AssemblyProduct("OPC Core Components")]
-[assembly: AssemblyCopyright(AssemblyVersionInfo.Copyright)]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -50,36 +42,3 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("8e54aa97-b3f9-4696-aecb-0aa5cb14e147")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-[assembly: AssemblyVersion(AssemblyVersionInfo.CurrentVersion)]
-[assembly: AssemblyFileVersion(AssemblyVersionInfo.CurrentFileVersion)]
-
-/// <summary>
-/// Defines string constants for SDK version information.
-/// </summary>
-internal static class AssemblyVersionInfo
-{
-    /// <summary>
-    /// The current copy right notice.
-    /// </summary>
-    public const string Copyright = "Copyright © 2010-2014 OPC Foundation, Inc";
-
-    /// <summary>
-    /// The current build version.
-    /// </summary>
-    public const string CurrentVersion = "2.00.106.0";
-
-    /// <summary>
-    /// The current build file version.
-    /// </summary>
-    public const string CurrentFileVersion = "2.00.106.0";
-}

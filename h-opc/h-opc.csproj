@@ -36,10 +36,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -80,10 +76,6 @@
     <ProjectReference Include="..\sdk-ua\UA Core Library\UA Core Library.csproj">
       <Project>{7543afcb-f5af-44af-83c9-23164474c1e9}</Project>
       <Name>UA Core Library</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\sdk-ua\UA Server Library\UA Server Library.csproj">
-      <Project>{e16f908b-c338-4b0c-9e72-2adad8fb98d5}</Project>
-      <Name>UA Server Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

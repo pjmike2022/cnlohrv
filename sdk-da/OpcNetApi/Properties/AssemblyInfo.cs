@@ -31,23 +31,7 @@
 // 2004/12/23 RSA   Fixed DA server problem (1.30.1.10).
 
 using System;
-using System.Resources;
-using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: CLSCompliant(true)]
-[assembly: ComVisible(true)]
-[assembly: NeutralResourcesLanguageAttribute("en")]
-
-[assembly: AssemblyTitle("OpcNetApi.Com")]
-[assembly: AssemblyDescription("OPC .NET API COM Wrappers")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("OPC Foundation")]
-[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("Copyright © 2003-2014 OPC Foundation")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-
-[assembly: AssemblyFileVersion("2.01.106.0")]
-[assembly: AssemblyVersion("2.01.106.0")]
+[assembly: ComVisible(false)]
